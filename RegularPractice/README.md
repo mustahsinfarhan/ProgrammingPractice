@@ -1,0 +1,1 @@
+This folder contains regular practice programs like hello world.
