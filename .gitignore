@@ -1,0 +1,11 @@
+# Ignore all debug symbol folders anywhere in the project
+*.dSYM/
+
+# Ignore .vscode settings folder
+.vscode/
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore specific binary executable files by name
+TicTacToe
