@@ -7,5 +7,5 @@
 # Ignore Mac system files
 .DS_Store
 
-# Ignore specific binary executable files by name
-TicTacToe
+# Ignore binary executable file
+main

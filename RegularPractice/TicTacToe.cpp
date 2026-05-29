@@ -1,13 +1,6 @@
-#include <iostream>
-#include <ctime>
+#include "TicTacToe.h"
 
-void drawBoard(char *spaces);
-void playerMove(char *spaces, char player);
-void computerMove(char *spaces, char computer);
-bool checkWinner(char *spaces, char player, char computer);
-bool checkTie(char *spaces);
-
-int main()
+int run()
 {
     char playAgain;
 
@@ -107,7 +100,7 @@ void playerMove(char *spaces, char player)
             break;
         }
         
-    }while(!number > 0 || !number < 8);
+    }while(number < 0 || number > 8);
 
 }
 
