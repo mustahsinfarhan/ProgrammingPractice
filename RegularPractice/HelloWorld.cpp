@@ -1,4 +1,4 @@
-#include "../build_config.h"
+#include "../BuildConfig.h"
 #include "HelloWorld.h"
 
 #if ACTIVE_BUILD == BUILD_HELLO_WORLD

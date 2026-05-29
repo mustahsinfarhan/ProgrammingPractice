@@ -1,4 +1,4 @@
-#include "../build_config.h"
+#include "../BuildConfig.h"
 #include "TicTacToe.h"
 
 #if ACTIVE_BUILD == BUILD_TICTACTOE

@@ -2,7 +2,7 @@
 This repository is used for storing programs I wrote for practice in my free time.
 
 Makefile is used to build the project.
-To run specific program, set it as ACTIVE_BUILD in the build_config.h and build. 
+To run specific program, set it as ACTIVE_BUILD in the BuildConfig.h and build. 
 
 NOTE:
 To Build, open terminal an run the following:

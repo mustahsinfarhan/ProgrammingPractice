@@ -1,7 +1,4 @@
-# Makefile for multi-program project
-# To switch programs, edit ACTIVE_BUILD in build_config.h
-# Makefile stays the same regardless of which program you want to build
-
+# Makefile for the project
 CXX      = g++
 CXXFLAGS = -Wall -Wextra -std=c++17 -g
 
