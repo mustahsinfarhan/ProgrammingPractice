@@ -1,11 +1,10 @@
-# Ignore all debug symbol folders anywhere in the project
+# Ignore all generated files in the project
 *.dSYM/
+*.o
+main
 
 # Ignore .vscode settings folder
 .vscode/
 
 # Ignore Mac system files
 .DS_Store
-
-# Ignore binary executable file
-main

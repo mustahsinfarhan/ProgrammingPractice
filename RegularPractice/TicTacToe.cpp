@@ -1,4 +1,7 @@
+#include "../build_config.h"
 #include "TicTacToe.h"
+
+#if ACTIVE_BUILD == BUILD_TICTACTOE
 
 int run()
 {
@@ -177,3 +180,5 @@ bool checkTie(char *spaces)
     std::cout << "IT'S A TIE!" << std::endl;
     return true;
 }
+
+#endif

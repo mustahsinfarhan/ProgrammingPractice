@@ -1,0 +1,9 @@
+#ifndef BUILD_CONFIG_H
+#define BUILD_CONFIG_H
+
+#include "BuildTargetDefinition.h"
+
+// EDIT THIS LINE TO SWITCH WHICH PROGRAM TO BUILD
+#define ACTIVE_BUILD BUILD_TICTACTOE
+
+#endif // BUILD_CONFIG_H
